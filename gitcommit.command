@@ -1,5 +1,5 @@
 echo 'start git committing ...'
-echo $(cd `dirname $0`; pwd)
+cd $(cd `dirname $0`; pwd)
 git status
 git add .
 git commit -m 'update'
