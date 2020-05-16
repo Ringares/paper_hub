@@ -1,0 +1,2 @@
+- [Batch Norm 2015] [pdf](https://arxiv.org/pdf/1502.03167.pdf)
+  - Ioffe, Sergey and Christian Szegedy. “Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.” ArXiv abs/1502.03167 (2015): n. pag.
