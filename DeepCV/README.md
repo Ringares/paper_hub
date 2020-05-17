@@ -1,4 +1,4 @@
-### Architecture
+## Architecture
 
 - [LeNet 1998] |[pdf](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Gradient-based-learning-applied-to-document-LeCun-Bottou/162d958ff885f1462aeda91cd72582323fd6a1f4)
   - LeCun, Yann et al. “Gradient-based learning applied to document recognition.” (1998).
@@ -10,7 +10,7 @@
   - He, Kaiming et al. “Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification.” 2015 IEEE International Conference on Computer Vision (ICCV) (2015): 1026-1034.
   
 ---
-### Optimization & Initialization & Tricks
+## Optimization & Initialization & Tricks
 
 - [Batch Norm 2015] |[pdf](https://arxiv.org/pdf/1502.03167.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Batch-Normalization%3A-Accelerating-Deep-Network-by-Ioffe-Szegedy/4d376d6978dad0374edfa6709c9556b42d3594d3)|
   - Ioffe, Sergey and Christian Szegedy. “Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.” ArXiv abs/1502.03167 (2015): n. pag.
