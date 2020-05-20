@@ -6,8 +6,7 @@
   - Krizhevsky, Alex et al. “ImageNet Classification with Deep Convolutional Neural Networks.” NIPS (2012).
 - [VGG 2015] |[pdf](https://nbviewer.jupyter.org/github/Ringares/paper_hub/blob/master/DeepCV/%5BVGG2015%5DVeryDeepConvolutionalNetworksForLargeScaleImageRecognition.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Very-Deep-Convolutional-Networks-for-Large-Scale-Simonyan-Zisserman/eb42cf88027de515750f230b23b1a057dc782108)
   - Simonyan, Karen and Andrew Zisserman. “Very Deep Convolutional Networks for Large-Scale Image Recognition.” CoRR abs/1409.1556 (2015): n. pag.
-- [pReLU&Kaiming Initialization 2015] |[pdf](https://nbviewer.jupyter.org/github/Ringares/paper_hub/blob/master/DeepCV/%5BpReLU%26KaimingInitialization2015%5DkaimingDelvingDeepIntoRectifiers_SurpassingHumanLevelPerformanceOnImageNetClassification.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Delving-Deep-into-Rectifiers%3A-Surpassing-on-He-Zhang/d6f2f611da110b5b5061731be3fc4c7f45d8ee23)
-  - He, Kaiming et al. “Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification.” 2015 IEEE International Conference on Computer Vision (ICCV) (2015): 1026-1034.
+
   
 ---
 ## Optimization & Initialization & Tricks
@@ -17,7 +16,9 @@
   - Sutskever, Ilya et al. “On the importance of initialization and momentum in deep learning.” ICML (2013).
 - [Batch Norm 2015] |[pdf](https://arxiv.org/pdf/1502.03167.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Batch-Normalization%3A-Accelerating-Deep-Network-by-Ioffe-Szegedy/4d376d6978dad0374edfa6709c9556b42d3594d3)|
   - Ioffe, Sergey and Christian Szegedy. “Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.” ArXiv abs/1502.03167 (2015): n. pag.
-- [LSUV Initialization 2015] |[pdf](https://arxiv.org/pdf/1511.06422.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/All-you-need-is-a-good-init-Mishkin-Matas/97dc8df45972e4ed7423fc992a5092ba25b33411)
+- [pReLU&Kaiming Initialization 2015] |[pdf](https://nbviewer.jupyter.org/github/Ringares/paper_hub/blob/master/DeepCV/%5BpReLU%26KaimingInitialization2015%5DkaimingDelvingDeepIntoRectifiers_SurpassingHumanLevelPerformanceOnImageNetClassification.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Delving-Deep-into-Rectifiers%3A-Surpassing-on-He-Zhang/d6f2f611da110b5b5061731be3fc4c7f45d8ee23)
+  - He, Kaiming et al. “Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification.” 2015 IEEE International Conference on Computer Vision (ICCV) (2015): 1026-1034.
+- [LSUV Initialization 2016] |[pdf](https://arxiv.org/pdf/1511.06422.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/All-you-need-is-a-good-init-Mishkin-Matas/97dc8df45972e4ed7423fc992a5092ba25b33411)
   - Mishkin, Dmytro and Juan E. Sala Matas. “All you need is a good init.” CoRR abs/1511.06422 (2015): n. pag.
 
 
