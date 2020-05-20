@@ -12,6 +12,8 @@
 ---
 ## Optimization & Initialization & Tricks
 
+- [2013 Nesterov's Momenton (NAG, first-order optim can perform well in dnn and rnn with good momtentum accelerator)] |[pdf](http://www.cs.toronto.edu/~hinton/absps/momentum.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/On-the-importance-of-initialization-and-momentum-in-Sutskever-Martens/aa7bfd2304201afbb19971ebde87b17e40242e91)
+  - cite:Sutskever, Ilya et al. “On the importance of initialization and momentum in deep learning.” ICML (2013).
 - [Batch Norm 2015] |[pdf](https://arxiv.org/pdf/1502.03167.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Batch-Normalization%3A-Accelerating-Deep-Network-by-Ioffe-Szegedy/4d376d6978dad0374edfa6709c9556b42d3594d3)|
   - Ioffe, Sergey and Christian Szegedy. “Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.” ArXiv abs/1502.03167 (2015): n. pag.
 - [LSUV Initialization 2015] |[pdf](https://arxiv.org/pdf/1511.06422.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/All-you-need-is-a-good-init-Mishkin-Matas/97dc8df45972e4ed7423fc992a5092ba25b33411)
