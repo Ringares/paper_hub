@@ -16,6 +16,8 @@
   - *Sutskever, Ilya et al. “On the importance of initialization and momentum in deep learning.” ICML (2013).*
 - **[Batch Norm 2015] |[pdf](https://arxiv.org/pdf/1502.03167.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Batch-Normalization%3A-Accelerating-Deep-Network-by-Ioffe-Szegedy/4d376d6978dad0374edfa6709c9556b42d3594d3)|**
   - Ioffe, Sergey and Christian Szegedy. “Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.” ArXiv abs/1502.03167 (2015): n. pag.
+- **[GroupNorm 2018] |[pdf](https://arxiv.org/pdf/1803.08494.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Group-Normalization-Wu-He/9f7919a5677290ab2eca4fa8056bdbbf7c0b11d6)**
+  - *Wu, Yuxin and Kaiming He. “Group Normalization.” ECCV (2018).*
 - **[pReLU&Kaiming Initialization 2015] |[pdf](https://nbviewer.jupyter.org/github/Ringares/paper_hub/blob/master/DeepCV/%5BpReLU%26KaimingInitialization2015%5DkaimingDelvingDeepIntoRectifiers_SurpassingHumanLevelPerformanceOnImageNetClassification.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Delving-Deep-into-Rectifiers%3A-Surpassing-on-He-Zhang/d6f2f611da110b5b5061731be3fc4c7f45d8ee23)|**
   - He, Kaiming et al. “Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification.” 2015 IEEE International Conference on Computer Vision (ICCV) (2015): 1026-1034.
 - **[LSUV Initialization 2016] |[pdf](https://arxiv.org/pdf/1511.06422.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/All-you-need-is-a-good-init-Mishkin-Matas/97dc8df45972e4ed7423fc992a5092ba25b33411)|**
@@ -25,6 +27,6 @@
 
 
 ```
-- [Abstract] |[pdf]()|[semanticscholar]()
-  - cite:
+- **[Abstract] |[pdf]()|[semanticscholar]()|**
+  - *cite:*
 ```
