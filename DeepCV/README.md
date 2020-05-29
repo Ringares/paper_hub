@@ -4,10 +4,11 @@
   - *LeCun, Yann et al. “Gradient-based learning applied to document recognition.” (1998).*
 - **[AlexNet 2012] |[pad](https://nbviewer.jupyter.org/github/Ringares/paper_hub/blob/master/DeepCV/%5BAlexNet2012%5DalexImagenetClassificationWithDeepConvolutionalNeuralNetworks.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/ImageNet-Classification-with-Deep-Convolutional-Krizhevsky-Sutskever/abd1c342495432171beb7ca8fd9551ef13cbd0ff)|**
   - *Krizhevsky, Alex et al. “ImageNet Classification with Deep Convolutional Neural Networks.” NIPS (2012).*
+- **[NIN 2014] |[pdf](https://arxiv.org/pdf/1312.4400.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Network-In-Network-Lin-Chen/5e83ab70d0cbc003471e87ec306d27d9c80ecb16)|**
+  - *Lin, Min et al. “Network In Network.” CoRR abs/1312.4400 (2014): n. pag.*
 - **[VGG 2015]|[pdf](https://nbviewer.jupyter.org/github/Ringares/paper_hub/blob/master/DeepCV/%5BVGG2015%5DVeryDeepConvolutionalNetworksForLargeScaleImageRecognition.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Very-Deep-Convolutional-Networks-for-Large-Scale-Simonyan-Zisserman/eb42cf88027de515750f230b23b1a057dc782108)|**
   - *Simonyan, Karen and Andrew Zisserman. “Very Deep Convolutional Networks for Large-Scale Image Recognition.” CoRR abs/1409.1556 (2015): n. pag.*
 
-  
 ---
 ## Optimization & Initialization & Tricks
 
