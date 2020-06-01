@@ -12,6 +12,8 @@
   - *Szegedy, Christian et al. “Going deeper with convolutions.” 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2015): 1-9.*
 - **[ResNet 2016] |[pdf](https://arxiv.org/pdf/1512.03385.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Deep-Residual-Learning-for-Image-Recognition-He-Zhang/2c03df8b48bf3fa39054345bafabfeff15bfd11d)|**
   - *He, Kaiming et al. “Deep Residual Learning for Image Recognition.” 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2016): 770-778.*
+- **[DenseNet 2017] |[pdf](https://arxiv.org/pdf/1608.06993.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Densely-Connected-Convolutional-Networks-Huang-Liu/5694e46284460a648fe29117cbc55f6c9be3fa3c)|**
+  - *Huang, Gao et al. “Densely Connected Convolutional Networks.” 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017): 2261-2269.*
 
 ---
 ## Optimization & Initialization & Tricks
