@@ -8,6 +8,8 @@
   - *Lin, Min et al. “Network In Network.” CoRR abs/1312.4400 (2014): n. pag.*
 - **[VGG 2015]|[pdf](https://nbviewer.jupyter.org/github/Ringares/paper_hub/blob/master/DeepCV/%5BVGG2015%5DVeryDeepConvolutionalNetworksForLargeScaleImageRecognition.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Very-Deep-Convolutional-Networks-for-Large-Scale-Simonyan-Zisserman/eb42cf88027de515750f230b23b1a057dc782108)|**
   - *Simonyan, Karen and Andrew Zisserman. “Very Deep Convolutional Networks for Large-Scale Image Recognition.” CoRR abs/1409.1556 (2015): n. pag.*
+- **[GooLeNet 2015] |[pdf](https://arxiv.org/pdf/1409.4842.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Going-deeper-with-convolutions-Szegedy-Liu/e15cf50aa89fee8535703b9f9512fca5bfc43327)|**
+  - *Szegedy, Christian et al. “Going deeper with convolutions.” 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2015): 1-9.*
 
 ---
 ## Optimization & Initialization & Tricks
