@@ -10,6 +10,8 @@
   - *Simonyan, Karen and Andrew Zisserman. “Very Deep Convolutional Networks for Large-Scale Image Recognition.” CoRR abs/1409.1556 (2015): n. pag.*
 - **[GooLeNet 2015] |[pdf](https://arxiv.org/pdf/1409.4842.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Going-deeper-with-convolutions-Szegedy-Liu/e15cf50aa89fee8535703b9f9512fca5bfc43327)|**
   - *Szegedy, Christian et al. “Going deeper with convolutions.” 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2015): 1-9.*
+- **[ResNet 2016] |[pdf](https://arxiv.org/pdf/1512.03385.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Deep-Residual-Learning-for-Image-Recognition-He-Zhang/2c03df8b48bf3fa39054345bafabfeff15bfd11d)|**
+  - *He, Kaiming et al. “Deep Residual Learning for Image Recognition.” 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2016): 770-778.*
 
 ---
 ## Optimization & Initialization & Tricks
