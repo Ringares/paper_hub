@@ -11,7 +11,12 @@
 - **[GooLeNet 2015] |[pdf](https://arxiv.org/pdf/1409.4842.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Going-deeper-with-convolutions-Szegedy-Liu/e15cf50aa89fee8535703b9f9512fca5bfc43327)|**
   - *Szegedy, Christian et al. “Going deeper with convolutions.” 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2015): 1-9.*
 - **[ResNet 2016] |[pdf](https://arxiv.org/pdf/1512.03385.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Deep-Residual-Learning-for-Image-Recognition-He-Zhang/2c03df8b48bf3fa39054345bafabfeff15bfd11d)|**
-  - *He, Kaiming et al. “Deep Residual Learning for Image Recognition.” 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2016): 770-778.*
+  - *He, Kaiming et al. “Deep Residual Learning for Image Recognition.” 2016 IEEE Conference on Computer Vision and Pattern 
+  - **[Identity Mappings in Deep Residual Networks 2016] |[pdf](https://arxiv.org/pdf/1603.05027.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Identity-Mappings-in-Deep-Residual-Networks-He-Zhang/77f0a39b8e02686fd85b01971f8feb7f60971f80)|**
+    - `propose full pre-activation structure for residual building blocks`
+    - *He, Kaiming et al. “Identity Mappings in Deep Residual Networks.” ArXiv abs/1603.05027 (2016): n. pag.*
+ 
+Recognition (CVPR) (2016): 770-778.*
 - **[DenseNet 2017] |[pdf](https://arxiv.org/pdf/1608.06993.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Densely-Connected-Convolutional-Networks-Huang-Liu/5694e46284460a648fe29117cbc55f6c9be3fa3c)|**
   - *Huang, Gao et al. “Densely Connected Convolutional Networks.” 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017): 2261-2269.*
 
