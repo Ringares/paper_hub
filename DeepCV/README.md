@@ -17,6 +17,10 @@
     - *He, Kaiming et al. “Identity Mappings in Deep Residual Networks.” ArXiv abs/1603.05027 (2016): n. pag.*
 - **[DenseNet 2017] |[pdf](https://arxiv.org/pdf/1608.06993.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Densely-Connected-Convolutional-Networks-Huang-Liu/5694e46284460a648fe29117cbc55f6c9be3fa3c)|**
   - *Huang, Gao et al. “Densely Connected Convolutional Networks.” 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017): 2261-2269.*
+- **[MobileNet 2017] |[pdf](https://arxiv.org/pdf/1704.04861.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/MobileNets%3A-Efficient-Convolutional-Neural-Networks-Howard-Zhu/3647d6d0f151dc05626449ee09cc7bce55be497e)|**
+  - *Howard, Andrew G. et al. “MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications.” ArXiv abs/1704.04861 (2017): n. pag.*
+- **[ShuffleNet 2018] |[pdf](https://arxiv.org/pdf/1707.01083.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/ShuffleNet%3A-An-Extremely-Efficient-Convolutional-Zhang-Zhou/9da734397acd7ff7c557960c62fb1b400b27bd89)|**
+  - *Zhang, Xiangyu et al. “ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices.” 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018): 6848-6856.*
 
 ---
 ## Optimization & Initialization & Tricks
