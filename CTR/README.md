@@ -5,7 +5,7 @@
 - **[Deep&Cross Network (DCN) 2017] |[pdf](https://arxiv.org/pdf/1708.05123.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Deep-%26-Cross-Network-for-Ad-Click-Predictions-Wang-Fu/f37a3264f720700dcc5175d6f4ca7cfde4ec845e)|**
   - `Cross Network for the wide part`
   - *Wang, Ruoxi et al. “Deep & Cross Network for Ad Click Predictions.” ArXiv abs/1708.05123 (2017): n. pag.*
-  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8uvx36sj30rq0u40yr.jpg" width="50%"/>
+  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8uvx36sj30rq0u40yr.jpg" width="40%"/>
 - **[PNN (IPNN, OPNN) 2017] |[pdf](https://arxiv.org/pdf/1611.00144.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Product-Based-Neural-Networks-for-User-Response-Qu-Cai/65455368b4ff0aa8886245c093346c66ff74bb0a)|**
   - *Qu, Y., Cai, H., Ren, K., Zhang, W., Yu, Y., Wen, Y., & Wang, J. (2016). Product-Based Neural Networks for User Response Prediction. 2016 IEEE 16th International Conference on Data Mining (ICDM), 1149-1154.*
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8rso1ktj30ei0baq45.jpg" width="30%"/>
