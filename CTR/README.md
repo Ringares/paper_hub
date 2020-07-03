@@ -1,4 +1,8 @@
 - **[W&D 2016] |[pdf](https://arxiv.org/pdf/1606.07792.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Wide-%26-Deep-Learning-for-Recommender-Systems-Cheng-Koc/657fbf29ea0b4904a3e98d1556f9acf38dddae5f)|**
+  - ```
+    12
+    12
+    ```
   - Summary:
     - Wide(Memorization) + Deep(Generalization)
     - wide 部分由和业务知识相关的特征的 cross-product transformation 构成 (wide 部分放哪些特征需要好好研究 (值得被记忆的? 具有相关性的?))
