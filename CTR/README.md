@@ -1,10 +1,18 @@
 - **[W&D 2016] |[pdf](https://arxiv.org/pdf/1606.07792.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Wide-%26-Deep-Learning-for-Recommender-Systems-Cheng-Koc/657fbf29ea0b4904a3e98d1556f9acf38dddae5f)|**
   - ```
+    # Summary
     - Wide(Memorization) + Deep(Generalization)
     - wide 部分由和业务知识相关的特征的 cross-product transformation 构成 (wide 部分放哪些特征需要好好研究 (值得被记忆的? 具有相关性的?))
-    - 系统实现 data generation 部分: 样本是来自 Google App 安装与曝光数据; 在 data generation 阶段计算类别型特征的离散化映射表, 实数稠密特征进行分桶归一
-    - 系统实现 model training 部分: embed_size=32; 500 billion examplel; 新数据训练时用老模型初始化新模型 (warm-starting)
-    - 系统实现 model serving 部分: 并行推理
+    - 系统实现 data generation 部分: 
+      - 样本是来自 Google App 安装与曝光数据
+      - 在 data generation 阶段计算类别型特征的离散化映射表
+      - 实数稠密特征进行分桶归一
+    - 系统实现 model training 部分: 
+      - embed_size=32
+      - 500 billion examplel
+      - 新数据训练时用老模型初始化新模型 (warm-starting)
+    - 系统实现 model serving 部分: 
+      - 并行推理
     ```
   - *Cheng, H., Koc, L., Harmsen, J., Shaked, T., Chandra, T., Aradhye, H., Anderson, G., Corrado, G.S., Chai, W., Ispir, M., Anil, R., Haque, Z., Hong, L., Jain, V., Liu, X., & Shah, H. (2016). Wide & Deep Learning for Recommender Systems. DLRS 2016.*
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggbgkbue4ij30yp08ead6.jpg" width="80%"/>
