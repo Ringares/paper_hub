@@ -1,4 +1,4 @@
-- **[W&D 2016] |[pdf](https://dl.acm.org/doi/pdf/10.1145/2988450.2988454?download=true)|[semanticscholar](https://www.semanticscholar.org/paper/Wide-%26-Deep-Learning-for-Recommender-Systems-Cheng-Koc/657fbf29ea0b4904a3e98d1556f9acf38dddae5f)|**
+- **[W&D 2016] |[pdf](https://arxiv.org/pdf/1606.07792.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Wide-%26-Deep-Learning-for-Recommender-Systems-Cheng-Koc/657fbf29ea0b4904a3e98d1556f9acf38dddae5f)|**
   - *Cheng, H., Koc, L., Harmsen, J., Shaked, T., Chandra, T., Aradhye, H., Anderson, G., Corrado, G.S., Chai, W., Ispir, M., Anil, R., Haque, Z., Hong, L., Jain, V., Liu, X., & Shah, H. (2016). Wide & Deep Learning for Recommender Systems. DLRS 2016.*
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggbgkbue4ij30yp08ead6.jpg" width="80%"/>
 - **[Deep Crossing 2016] |[pdf](https://www.kdd.org/kdd2016/papers/files/adf0975-shanA.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Deep-Crossing%3A-Web-Scale-Modeling-without-Manually-Shan-Hoens/a83c778e918539941cba9dcaa6ec881b3ae7a29a)|**
