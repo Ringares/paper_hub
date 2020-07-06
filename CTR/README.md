@@ -18,6 +18,9 @@
     # Question:
     - 文中 cross-product transformation 计算 User installed app 和 impression app (候选物品) 的共现关系, 怎么对 User installed app 进行处理的? 因为一个用户会有很多已安装的应用
     - 推测一种做法是大规模稀疏的 multihot 表达,  User installed app 这是一组特征, 每个特征是物品库里的一个物品, 取值 0/1 (binary 特征)
+    
+    # Resource
+    - 王喆 <见微知著，你真的搞懂Google的Wide&Deep模型了吗？> https://zhuanlan.zhihu.com/p/142958834
     ```
   - *Cheng, H., Koc, L., Harmsen, J., Shaked, T., Chandra, T., Aradhye, H., Anderson, G., Corrado, G.S., Chai, W., Ispir, M., Anil, R., Haque, Z., Hong, L., Jain, V., Liu, X., & Shah, H. (2016). Wide & Deep Learning for Recommender Systems. DLRS 2016.*
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggbgkbue4ij30yp08ead6.jpg" width="80%"/>
