@@ -34,7 +34,7 @@
 
 **Additinal Resource**
 
-- 王喆 <见微知著，你真的搞懂Google的Wide&Deep模型了吗？> https://zhuanlan.zhihu.com/p/142958834
+- [王喆 <见微知著，你真的搞懂Google的Wide&Deep模型了吗？>](https://zhuanlan.zhihu.com/p/142958834)
 
 ---
 
