@@ -1,3 +1,8 @@
+## Toc
+- [[W&D 2016]](#wd-2016--pdf--semanticscholar-)
+- [[Deep&Cross Network (DCN) 2017]](#deepcross-network-dcn-2017--pdf--semanticscholar-)
+
+---
 
 ### [W&D 2016] | [pdf](https://arxiv.org/pdf/1606.07792.pdf) | [semanticscholar](https://www.semanticscholar.org/paper/Wide-%26-Deep-Learning-for-Recommender-Systems-Cheng-Koc/657fbf29ea0b4904a3e98d1556f9acf38dddae5f) |
 
@@ -28,7 +33,7 @@
 **Question**
 
 - Q: 文中 cross-product transformation 计算 User installed app 和 impression app (候选物品) 的共现关系, 怎么对 User installed app 进行处理的? 因为一个用户会有很多已安装的应用
-  - 推测一种做法是大规模稀疏的 multihot 表达,  User installed app 这是一组特征, 每个特征是物品库里的一个物品, 取值 0/1 (binary 特征)
+  - 一种做法是大规模稀疏的 multihot 表达,  User installed app 这是一组特征, 每个特征是物品库里的一个物品, 取值 0/1 (binary 特征)
 
 <br>
 
@@ -54,13 +59,30 @@
 
 **Summary**
 
-- Todo
+- cross network structure which more efficient in learning **certain bounded-degree** feature interactions.
+- low computational cost (linear to the input dims), memory efficient, easy to implement
+- 
+- 系统实现 data generation 部分: 
+  - 利用 Criteo Display Ads Data 训练, **41 million**  data
+  - 总共7天数据, 前6天作为 train_set, 第7天的数据均分成 vali_set, test_set
+  - Real-valued features are normalized by applying a log transform
+  - categorical features embeded by **6×(category cardinality)^(1/4)**
+- 系统实现 model training 部分: 
+  - jointly train both cross and deep networks with **Adam**
+  - batch size 512
+  - **Batch normalization was applied** to the deep network and **gradient clip norm was set at 100**
+  - used **early stopping**, as we **did not find L2 regularization or dropout to be effective**
+  - We report results based on a **grid search** over the number of hidden layers, hidden layer size, initial learning rate and number of cross layers
+- 实验说明:
+  - compared with FM, Deep, LR, DeepCrossing
+
 
 <br>
 
 **Question**
 
-- Todo
+- Q: Why the cross network is memory efficient?
+  - CrossNetwork 参数少, 与输入维度线性相关; 还体现了 FM 类似的共享参数, 实现多项式形式的特征交叉
 
 <br>
 
