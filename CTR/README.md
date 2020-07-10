@@ -61,7 +61,6 @@
 
 - cross network structure which more efficient in learning **certain bounded-degree** feature interactions.
 - low computational cost (linear to the input dims), memory efficient, easy to implement
-- 
 - 系统实现 data generation 部分: 
   - 利用 Criteo Display Ads Data 训练, **41 million**  data
   - 总共7天数据, 前6天作为 train_set, 第7天的数据均分成 vali_set, test_set
@@ -76,13 +75,14 @@
 - 实验说明:
   - compared with FM, Deep, LR, DeepCrossing
 
-
 <br>
 
 **Question**
 
 - Q: Why the cross network is memory efficient?
-  - CrossNetwork 参数少, 与输入维度线性相关; 还体现了 FM 类似的共享参数, 实现多项式形式的特征交叉
+  - CrossNetwork 参数少, 与输入维度线性相关; 在多项式形式的特征交叉上, 还体现了 FM 类似的共享参数
+- Q: 通过 cross network 来捕获显式的特征组合有什么有点
+  - 简单, 参数少, 高阶组合特征 (受 cn 的层数控制)
 
 <br>
 
