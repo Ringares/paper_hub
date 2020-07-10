@@ -94,7 +94,8 @@
 - Todo
 
 ---
-
+- **[FNN 2016 (embedding pretrained by FM)]**
+  - *W. Zhang, T. Du, and J. Wang, “Deep learning over multi-field categor-ical data: A case study on user response prediction,”ECIR, 2016.*
 
 - **[PNN (IPNN, OPNN) 2017] |[pdf](https://arxiv.org/pdf/1611.00144.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Product-Based-Neural-Networks-for-User-Response-Qu-Cai/65455368b4ff0aa8886245c093346c66ff74bb0a)|**
   - *Qu, Y., Cai, H., Ren, K., Zhang, W., Yu, Y., Wen, Y., & Wang, J. (2016). Product-Based Neural Networks for User Response Prediction. 2016 IEEE 16th International Conference on Data Mining (ICDM), 1149-1154.*
