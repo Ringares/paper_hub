@@ -61,6 +61,9 @@
 
 - cross network structure which more efficient in learning **certain bounded-degree** feature interactions.
 - low computational cost (linear to the input dims), memory efficient, easy to implement
+- cross network make a "Polynomial Approximation" : `Todo`
+- cross network is a "Generalization of FM": 两个特征的高阶交叉所用到的参数也是共享的, 也是分别特征对应的每一层的参数相乘之后得到 (类似与 FM, 各特征分量上的参数, 通过计算(点积)得到交叉后的参数)
+- cross network achieve "Efficient Projection": $x _{0} x _{l}^{T} w _{l}$ 的设计, 实际上是把 d^2 个交叉项映射回 d 个维度上, 通常需要 (d^2, d) 的投影矩阵, 但这里只用 d 个参数 就实现了, 因此比较高效
 - 系统实现 data generation 部分: 
   - 利用 Criteo Display Ads Data 训练, **41 million**  data
   - 总共7天数据, 前6天作为 train_set, 第7天的数据均分成 vali_set, test_set
