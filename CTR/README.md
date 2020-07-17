@@ -140,11 +140,6 @@
     - https://github.com/rixwew/pytorch-fm
   - discuss about impl version https://github.com/rixwew/pytorch-fm/pull/7
 - [PNN论文笔记](https://zhuanlan.zhihu.com/p/105084140)
----
-
-- **[PNN (IPNN, OPNN) 2017] |[pdf](https://arxiv.org/pdf/1611.00144.pdf)|[semanticscholar]()|**
-  - 
-  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8rso1ktj30ei0baq45.jpg" width="30%"/>
 
 ---
 
