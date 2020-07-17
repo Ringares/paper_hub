@@ -49,6 +49,7 @@
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8u08dasj30qc0mkq5g.jpg" width="40%"/>
 
 ---
+
 ### [Deep&Cross Network (DCN) 2017] | [pdf](https://arxiv.org/pdf/1708.05123.pdf) | [semanticscholar](https://www.semanticscholar.org/paper/Deep-%26-Cross-Network-for-Ad-Click-Predictions-Wang-Fu/f37a3264f720700dcc5175d6f4ca7cfde4ec845e) |
 
 > *Wang, Ruoxi et al. “Deep & Cross Network for Ad Click Predictions.” ArXiv abs/1708.05123 (2017): n. pag.*
@@ -91,14 +92,62 @@
 
 **Additinal Resource**
 
-- Todo
+- Todo 
 
 ---
 
+### [PNN 2017] 
 
-- **[PNN (IPNN, OPNN) 2017] |[pdf](https://arxiv.org/pdf/1611.00144.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Product-Based-Neural-Networks-for-User-Response-Qu-Cai/65455368b4ff0aa8886245c093346c66ff74bb0a)|**
-  - *Qu, Y., Cai, H., Ren, K., Zhang, W., Yu, Y., Wen, Y., & Wang, J. (2016). Product-Based Neural Networks for User Response Prediction. 2016 IEEE 16th International Conference on Data Mining (ICDM), 1149-1154.*
+- original 会议版本 (IPNN, OPNN) 2017 [pdf](https://arxiv.org/pdf/1611.00144.pdf) | [semanticscholar](https://www.semanticscholar.org/paper/Product-Based-Neural-Networks-for-User-Response-Qu-Cai/65455368b4ff0aa8886245c093346c66ff74bb0a) |
+  - > *Qu, Y., Cai, H., Ren, K., Zhang, W., Yu, Y., Wen, Y., & Wang, J. (2016). Product-Based Neural Networks for User Response Prediction. 2016 IEEE 16th International Conference on Data Mining (ICDM), 1149-1154.*
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8rso1ktj30ei0baq45.jpg" width="30%"/>
+  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggsyd34mjsj318g0eqjx2.jpg" width=75%>
+- extended version 期刊版本 (KPNN, PIN) 2017 [pdf](https://arxiv.org/pdf/1807.00311.pdf) | [semanticscholar](https://www.semanticscholar.org/paper/Product-Based-Neural-Networks-for-User-Response-Qu-Fang/ec87bf9b1423a6598d0ea43d7fb9f6db0fd6305b) |
+  - > *Qu, Y., Fang, B., Zhang, W., Tang, R., Niu, M., Guo, H., Yu, Y., & He, X. (2019). Product-Based Neural Networks for User Response Prediction over Multi-Field Categorical Data. ACM Transactions on Information Systems (TOIS), 37, 1 - 35.*
+  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggsyctqy09j314w0eomyj.jpg" width=75%/>
+
+<br>
+
+**Summary**
+- 会议版本 和期刊版本的不同之处在于 会议版本指定了 product layer 的输出长度, 因此需要有额外的
+- 期刊版本中提到 `sparse L2 regularization` 代替 `L2 regularization`, 进行 latent vector 进行惩罚, 原因是对于非常稀疏的输入, 每一条样本都会对所有的参数进行 L2 Reg 惩罚的更新, 代价比较大, 可以考虑只对参与前向传播的 vector 参数进行更新
+- 期刊版本中提到 kernel production 可以代表 inner product 和 outer product
+  - 当 kernel matrix 是 单位矩阵 I 的话, 就相当于 p, q 的 inner product
+  - 当 kernel matrix 是 [d,d] 矩阵, 就相当于 outer product
+  - <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fring%2Fx6ac178JX0.png?alt=media&token=6b04d66e-3708-425a-9dd2-8272f3e08565" width="30%"> 
+- 期刊版本中 KPNN, 作者代码中实现了三种 kernel 形式 的 kernel product. 分别是 `mat`, `vec`, `num`
+  - mat : `[k,1,d] @ **[k,d,d]** @ [k,d,1]` -> [k]
+  - vec: `sum([k,d] * [k,d] * **[k,d]**, dim=-1)` -> [k]
+  - num: `sum([k,d] * [k,d] * **[k,1]**, dim=-1)` -> [k]
+  - >@ 矩阵乘, * 按位乘; The default type is mat, and you can switch to other types to save time and memory
+
+<br>
+
+**Question**
+
+- Todo
+
+<br>
+
+**Additinal Resource**
+
+- Implementation: 
+  - Original version 
+    - https://github.com/nzc/dnn_ctr/blob/master/model/PNN.py
+    - https://github.com/JianzhouZhan/Awesome-RecSystem-Models/blob/master/Model/PNN_TensorFlow.py
+  - extended version 
+    - https://github.com/Atomu2014/product-nets/blob/master/python/models.py
+    - https://github.com/rixwew/pytorch-fm
+  - discuss about impl version https://github.com/rixwew/pytorch-fm/pull/7
+- [PNN论文笔记](https://zhuanlan.zhihu.com/p/105084140)
+---
+
+- **[PNN (IPNN, OPNN) 2017] |[pdf](https://arxiv.org/pdf/1611.00144.pdf)|[semanticscholar]()|**
+  - 
+  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8rso1ktj30ei0baq45.jpg" width="30%"/>
+
+---
+
 - **[NCF 2017] |[pdf](https://arxiv.org/pdf/1708.05031.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Neural-Collaborative-Filtering-He-Liao/ad42c33c299ef1c53dfd4697e3f7f98ed0ca31dd)|**
   - *He, X., Liao, L., Zhang, H., Nie, L., Hu, X., & Chua, T. (2017). Neural Collaborative Filtering. Proceedings of the 26th International Conference on World Wide Web.*
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8p3tnw6j30e508uq3x.jpg" width="40%"/>
