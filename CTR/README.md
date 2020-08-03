@@ -1,6 +1,8 @@
 ## Toc
 - [[W&D 2016]](#wd-2016--pdf--semanticscholar-)
 - [[Deep&Cross Network (DCN) 2017]](#deepcross-network-dcn-2017--pdf--semanticscholar-)
+- [[PNN 2017]](#pnn-2017)
+
 
 ---
 
@@ -114,13 +116,24 @@
 - 期刊版本中提到 kernel production 可以代表 inner product 和 outer product
   - 当 kernel matrix 是 单位矩阵 I 的话, 就相当于 p, q 的 inner product
   - 当 kernel matrix 是 [d,d] 矩阵, 就相当于 outer product
-  - <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fring%2Fx6ac178JX0.png?alt=media&token=6b04d66e-3708-425a-9dd2-8272f3e08565" width="30%"> 
+  - <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fring%2Fx6ac178JX0.png?alt=media&token=6b04d66e-3708-425a-9dd2-8272f3e08565" width="20%"> 
 - 期刊版本中 KPNN, 作者代码中实现了三种 kernel 形式 的 kernel product. 分别是 `mat`, `vec`, `num`
   - mat : `[k,1,d] @ **[k,d,d]** @ [k,d,1]` -> [k]
   - vec: `sum([k,d] * [k,d] * **[k,d]**, dim=-1)` -> [k]
   - num: `sum([k,d] * [k,d] * **[k,1]**, dim=-1)` -> [k]
   - >@ 矩阵乘, * 按位乘; The default type is mat, and you can switch to other types to save time and memory
-
+- 会议版本
+  - data generation
+      - Each data sample consists of multiple fields of categorical data, All the information is represented as a multi-field categorical feature vector, where each field (e.g.City) is one-hot encoded
+      - Criteo 1TB click log
+          - 下采样后 79.38 million 样本, 1.64 million feature dimensions
+  - model training
+      - Inspired by Net2Net, we can firstly train a part of PNN (e.g., the FNN or FM part) as the initialization, and then start to let the back propagation go over the whole net. The resulted PNN should at least be as good as FNN or FM.
+      - we use (sparse) L2 regularization to penalize embedding vectors, and we use dropout, LN, and SELU to regularize DNNs.
+- 期刊版本
+  - data generation: 用了 Criteo, Avazu, iPinYou, Huawei 的广告数据集
+  - 和会议版本不同的是, 其中提到 FM pre-training 的作用
+    - >From this figure, we find FM pre-training does not always produce better results compared with random initialization. Thus we believe the initialization of embedding vectors depends on datasets, which we leave as future work.
 <br>
 
 **Question**
@@ -143,9 +156,45 @@
 
 ---
 
-- **[NCF 2017] |[pdf](https://arxiv.org/pdf/1708.05031.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Neural-Collaborative-Filtering-He-Liao/ad42c33c299ef1c53dfd4697e3f7f98ed0ca31dd)|**
-  - *He, X., Liao, L., Zhang, H., Nie, L., Hu, X., & Chua, T. (2017). Neural Collaborative Filtering. Proceedings of the 26th International Conference on World Wide Web.*
-  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8p3tnw6j30e508uq3x.jpg" width="40%"/>
+### [NCF 2017] | [pdf](https://arxiv.org/pdf/1708.05031.pdf) | [semanticscholar](https://www.semanticscholar.org/paper/Neural-Collaborative-Filtering-He-Liao/ad42c33c299ef1c53dfd4697e3f7f98ed0ca31dd) |
+
+> *He, X., Liao, L., Zhang, H., Nie, L., Hu, X., & Chua, T. (2017). Neural Collaborative Filtering. Proceedings of the 26th International Conference on World Wide Web.*
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghdnry0wgzj30wm0hq447.jpg" width="70%"/>
+
+<br>
+
+**Summary**
+
+- focus on the pure collaborative filtering setting, therefore use **only ids** of users and items
+- 提出 NCF 的框架
+- 提出 **GMF** (Generalized Matrix Factorization)
+  - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghdp9f5l2ij30ae01udfu.jpg" width="20%">
+- 提出 GMF 和 MLP 的混合模型 (aka. NeuMF)
+  - 可以预训练 两个单独的模型
+  - 两个模型可以有各自的 embedding 表达
+- **Experiment**
+    - 公开数据集 MovieLens 
+        - one million rating, where each user has at least 20 ratings
+        - transformed it into implicit data, where each entry is marked as 0 or 1 indicating whether the user has rated the item.
+    - Pinterest
+        - 过滤, 和 MovieLens 一样只保留 最少有 20 interactions 的用户
+- >Note on tuning NeuMF: our experience is that for small predictive factors, running NeuMF without pre-training can achieve better performance than GMF and MLP. For large predictive factors, pre-training NeuMF can yield better performance (may need tune regularization for GMF and MLP). --via https://github.com/hexiangnan/neural_collaborative_filtering
+<br>
+
+**Question**
+
+- Todo
+
+<br>
+
+**Additinal Resource**
+
+- 作者 Implementation: https://github.com/hexiangnan/neural_collaborative_filtering
+
+
+---
+
 - **[DIN 2018] |[pdf](https://arxiv.org/pdf/1706.06978.pdf)|[semanticscholar](https://www.semanticscholar.org/paper/Deep-Interest-Network-for-Click-Through-Rate-Zhou-Song/b8c6ccd5c1eb4f9837fc4877d27e55b7349781be)|**
   - *Zhou, G., Song, C., Zhu, X., Ma, X., Yan, Y., Dai, X., Zhu, H., Jin, J., Li, H., & Gai, K. (2018). Deep Interest Network for Click-Through Rate Prediction. Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining.*
   - <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggb8r2n2gnj30vp0avgo9.jpg" width="80%"/>
